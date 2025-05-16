@@ -17,8 +17,11 @@ The **AI Resume Analyzer** is a smart web application designed to help job seeke
 
 1. **Upload Resume:** The user uploads their resume (PDF/DOCX).
 2. **Paste Job Description:** The user inputs the job description.
-3. **AI Analysis:** The app extracts text, computes semanticai-resume-analyzer/
-│
+3. **AI Analysis:** The app extracts text, computes semanticai-resume-analyzer
+4. **Result Displayed:** A match percentage and keyword feedback are shown.
+
+## Folder Structure (Simplified)
+│Ai-resume-analyzer
 ├── app.py
 ├── utils/
 │ ├── parser.py
@@ -34,7 +37,4 @@ The **AI Resume Analyzer** is a smart web application designed to help job seeke
 ├── uploads/
 ├── requirements.txt
 └── README.md similarity, and identifies keyword gaps.
-4. **Result Displayed:** A match percentage and keyword feedback are shown.
-
-## Folder Structure (Simplified)
 
